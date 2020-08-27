@@ -1,0 +1,7 @@
+.products {
+  @apply bg-gray-400;
+}
+
+.hfeed.site {
+  @apply bg-purple-400;
+}

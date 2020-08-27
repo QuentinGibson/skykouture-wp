@@ -1,0 +1,25 @@
+{
+  "name": "storefront-child",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "css-loader": "^4.2.2",
+    "postcss": "^7.0.32",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.2.1",
+    "tailwindcss": "^1.7.5",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode=development --config webpack.config.js",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "mini-css-extract-plugin": "^0.11.0",
+    "webpack-watch-files-plugin": "^1.0.3"
+  }
+}
